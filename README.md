@@ -26,7 +26,12 @@
 
 ## 3. <a name="handshake">The Four Step Handshake</a>
 
-(TODO)
+The DHCP 4-way handshake process involves the checking off, in sequence, of four flags: *DHCPDISCOVER*, *DHCPOFFER*, *DHCPREQUEST*, and *DHCPACK*. These flags (logically serving as a boolean true/false variable) represent the process in which a client device requests an IP address, a DHCP server offers one in response to the client, the client accepts the IP address offer and requests that it indeed wants it, and the DHCP server recognizes the lease of the IP address.
+
+1) **DHCPDISCOVER:** The client sends out a DHCPDISCOVER broadcast so that it can request an IP address (or renew one that it is already leasing).
+2) **DHCPOFFER:** The DHCP server responds to this effort with a DHCPOFFER message that includes the configuration parameters of an available IP address, a gateway address, and a subnet mask, as well as relevant DNS server information.
+3) **DHCPREQUEST:** The client sends this (and, specifically, broadcasts this message out to servers) to confirm to the server that it wants to accept the DHCP offer.
+4) **DHCPACK:** 'ACK' is short for 'ACKNOWLEDGMENT': the server confirms the lease and handles the assignment of the IP address.
 
 <hr />
 

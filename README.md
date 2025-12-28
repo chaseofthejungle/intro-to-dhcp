@@ -1,6 +1,6 @@
 # Intro to Dynamic Host Configuration Protocol (DHCP) Overview Guide
 
-**TODO**: A brief introductory guide to Dynamic Host Configuration Protocol (DHCP).
+**Description/Overview:** *Dynamic Host Configuration Protocol* (DHCP) automates *Internet Protocol* (IP) address allocation and related settings (e.g., *Domain Name System* (DNS), subnet masks, and gateway addresses) for network devices. This provides an alternative to manually entering addresses, and potentially reduces human error while increasing network security posture.
 
 #### Table of Contents
 
